@@ -51,8 +51,8 @@
       // L  |  ;  |  '   | | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M
       // |  ,  |  .  |  /  | ESC  |
       //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-      bindings =
-          <&kp ESC & kp Q & kp W & kp E & kp R & kp T & kp Y & kp U & kp I &
+      bindings = <
+      &kp ESC & kp Q & kp W & kp E & kp R & kp T & kp Y & kp U & kp I &
            kp O & kp P & kp BSPC & kp TAB & kp A & kp S & kp D & kp F & kp G &
            kp H & kp J & kp K & kp L & kp SEMI & kp RET & kp DEL & mt RALT Z &
            mt LCTRL X & mt LALT C & mt LGUI V & kp B & kp N & mt LGUI M &
@@ -71,7 +71,7 @@
            kp F8 & kp F9 & kp F10 &
            kp BSPC
            //&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt
-           //  BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+           //    BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
            & kp TAB & kp MINUS & kp BLSH 0 & kp EQUAL 1 & kp SEMI 2 & kp G &
            kp LEFT & kp DOWN & kp UP & kp RIGHT & trans & trans & trans &
            trans & trans & trans & kp F11 & kp F12 & kp HOME & kp END &
@@ -86,8 +86,8 @@
    ]  |  \  |  `   | | SHFT |     |     |     |     |     |   |  _  |  +
       // |  {  |  }  | "|" |  ~   |
       //                    | GUI |     | SPC |   | ENT |     | ALT |
-      bindings =
-          <&trans & kp AT & kp EXCL & kp LBRC & trans & kp MINUS & kp 7 & kp 8 &
+      bindings = <
+         &trans & kp AT & kp EXCL & kp LBRC & trans & kp MINUS & kp 7 & kp 8 &
            kp 8 & kp 9 & trans & trans & trans & kp MINUS & kp BSLH & kp LPAR &
            kp RPAR & SEMI & kp 0 & kp 4 & kp 5 & kp 6 & kp EQUAL & trans &
            trans & kp GRAVE & kp HASH & kp LBKT & kp RBKT & TILDE &
