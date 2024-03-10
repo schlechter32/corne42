@@ -18,7 +18,7 @@
     tapping_term_ms = <200>;
 };
 /{
-{
+
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
@@ -26,7 +26,6 @@
             then-layer = <3>;
         };
     };
-};
 behaviors{
  lh_pht: left_positional_hold_tap {
             compatible = "zmk,behavior-hold-tap";
