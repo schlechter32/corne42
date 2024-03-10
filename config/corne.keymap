@@ -17,8 +17,8 @@
     flavor = "tap-preferred";
     tapping_term_ms = <200>;
 };
-/ 
-  {
+/{
+{
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
